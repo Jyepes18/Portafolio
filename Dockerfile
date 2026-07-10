@@ -1,5 +1,6 @@
 # --- ETAPA 1: Construcción (Build) ---
-FROM node:20-alpine AS build
+# Cambiado a node:22-alpine para cumplir con el requerimiento de Astro (>=22.12.0)
+FROM docker.io/library/node:22-alpine AS build
 WORKDIR /app
 
 # Instalar pnpm globalmente dentro del contenedor
@@ -18,11 +19,10 @@ COPY . .
 RUN pnpm run build
 
 # --- ETAPA 2: Servidor de producción ---
-FROM nginx:alpine AS runtime
+FROM docker.io/library/nginx:alpine AS runtime
 
 # Copiar el resultado de Astro al servidor Nginx
 COPY --from=build /app/dist /usr/share/nginx/html
 
 # Railway asigna un puerto dinámico mediante la variable $PORT.
-# Configuramos Nginx para que escuche en ese puerto.
 CMD ["sh", "-c", "sed -i 's/listen       80;/listen '\"${PORT:-80}\"';/' /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"]
