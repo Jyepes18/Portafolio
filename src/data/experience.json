@@ -1,0 +1,14 @@
+[
+  {
+    "company": "Nube Salud",
+    "position": "Desarrollador Backend",
+    "period": "2025 - Actualidad",
+    "description": "Desarrollo de APIs REST con C# y .NET, integración con AWS S3, PostgreSQL y SQL Server. Participación en el desarrollo y mantenimiento de aplicaciones ASP.NET MVC."
+  },
+  {
+    "company": "Grupo ASD (Grupo Asesoría en Sistematización de Datos S.A.S.)",
+    "position": "Aprendiz SENA (Servicio Nacional de Aprendizaje)",
+    "period": "Abril 2024 - Septiembre 2024",
+    "description": "Participé en el desarrollo de una plataforma de estadísticas utilizando Kibana y Elasticsearch. Integré la API de GitHub para visualizar métricas de la empresa, como el ranking de desarrolladores, la cantidad de PSR por día y el seguimiento de tickets abiertos y cerrados."
+  }
+]

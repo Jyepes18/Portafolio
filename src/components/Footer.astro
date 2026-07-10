@@ -1,0 +1,28 @@
+---
+// Obtenemos el año actual automáticamente
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-dark text-secondary py-4 mt-5 border-top border-secondary text-center">
+  <div class="container">
+    <p class="mb-1 text-light">
+      &copy; {currentYear} <span class="text-primary fw-bold">Juan Yepes Dev</span>. Todos los derechos reservados.
+    </p>
+    <p class="mb-0 small">
+      Página hecha con <span class="heart-icon">&hearts;</span>
+    </p>
+  </div>
+</footer>
+
+<style>
+  .heart-icon {
+    color: #ff4d4d;
+    display: inline-block;
+    animation: heartbeat 1.5s infinite;
+  }
+
+  @keyframes heartbeat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+  }
+</style>

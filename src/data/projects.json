@@ -1,0 +1,10 @@
+[
+  {
+    "title": "To-Do List API",
+    "image": "/projects/Todo.png",
+    "technologies": [".NET 10", "PostgreSQL", "JWT"],
+    "description": "API RESTful robusta y escalable diseñada para la gestión eficiente de tareas pendientes. Implementa un sistema completo de autenticación y autorización segura mediante JWT (JSON Web Tokens), control de usuarios y persistencia de datos relacional con optimización de consultas.",
+    "github": "https://github.com/Jyepes18/ToDoApi",
+    "demo": "https://todoapi.jyepes.com/index.html"
+  }
+]

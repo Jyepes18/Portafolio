@@ -1,0 +1,124 @@
+<nav class="navbar navbar-expand-lg py-3">
+
+  <!-- Logo -->
+  <a class="navbar-brand m-0 p-0" href="/">
+    <img src="/icons/nombre.png" alt="JYEPES Logo" class="logo" />
+  </a>
+
+  <!-- Botón móvil -->
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Menú -->
+  <div class="collapse navbar-collapse" id="navbarNav">
+
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#about-me">Sobre mí</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#experience">Experiencia</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#projects">Proyectos</a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link text-light" href="#education">Educacion</a>
+      </li>
+    </ul>
+
+    <div class="d-flex align-items-center gap-3">
+
+      <a href="https://github.com/Jyepes18" target="_blank">
+        <img src="/icons/github.svg" alt="GitHub" class="icon" />
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/juan-pablo-yepes-herrera-56a133191/"
+        target="_blank"
+      >
+        <img src="/icons/linkedin.svg" alt="LinkedIn" class="icon" />
+      </a>
+
+      <a
+        href="/JUAN_PABLO_YEPES_HERRERA_CV.pdf"
+        download
+      >
+        <img src="/icons/cv.svg" alt="Descargar CV" class="icon" />
+      </a>
+
+      <button class="email-btn" id="copy-email">
+        <img src="/icons/email.svg" alt="Copiar correo" class="icon" />
+      </button>
+
+    </div>
+
+  </div>
+
+</nav>
+
+<style>
+.navbar {
+    padding-inline: 0;
+    /* --- AQUÍ ESTÁ EL TRUCO PARA QUE SE QUEDE FIJO SIN ALTERAR NADA --- */
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* Evita que otros elementos de la página pasen por encima de la barra */
+}
+
+.navbar-brand{
+    margin:0;
+    padding:0;
+}
+
+.logo{
+    width:150px;
+    display:block;
+}
+
+.icon{
+    width:34px;
+    height:34px;
+    transition:.2s;
+}
+
+.icon:hover{
+    transform:scale(1.1);
+}
+
+.email-btn{
+    background:none;
+    border:none;
+    padding:0;
+    cursor:pointer;
+}
+
+.navbar-toggler{
+    border-color:#fff;
+}
+
+.navbar-toggler-icon{
+    filter:invert(1);
+}
+</style>
+
+<script>
+const button = document.getElementById("copy-email");
+
+button?.addEventListener("click", async () => {
+    await navigator.clipboard.writeText("juanyepes2005h@gmail.com");
+    alert("Correo copiado");
+});
+</script>

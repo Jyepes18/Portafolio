@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Ingeniería de Software",
+    "institution": "Corporación Universitaria Iberoamericana",
+    "period": "2025 - Actualmente",
+    "description": "Formación profesional enfocada en el diseño, arquitectura, desarrollo y gestión de sistemas de software complejos."
+  },
+  {
+    "title": "Tecnólogo en Análisis y Desarrollo de Software",
+    "institution": "SENA (Servicio Nacional de Aprendizaje)",
+    "period": "2023 - 2024",
+    "description": "Formación técnica avanzada en modelado de bases de datos, arquitectura de software y desarrollo de aplicaciones web y móviles."
+  },
+  {
+    "title": "Técnico en Análisis y Desarrollo de Software",
+    "institution": "SENA (Servicio Nacional de Aprendizaje)",
+    "period": "2021 - 2022",
+    "description": "Fundamentos de la programación, lógica de desarrollo y diseño estructurado de sistemas en la etapa escolar."
+  },
+  {
+    "title": "Código Limpio del Siglo XXI (Clean Code)",
+    "institution": "Mastermind",
+    "period": "2024",
+    "description": "Especialización en buenas prácticas de programación, legibilidad, refactorización y mantenibilidad de código estructurado."
+  },
+  {
+    "title": "Creando APIs con Node.js",
+    "institution": "Mastermind",
+    "period": "2024",
+    "description": "Desarrollo backend enfocado en la construcción, despliegue y aseguramiento de APIs REST efectivas utilizando Node.js."
+  },
+  {
+    "title": "Bases de Datos NoSQL con MongoDB y Node.js",
+    "institution": "Mastermind",
+    "period": "2024",
+    "description": "Diseño y modelado de datos no relacionales, persistencia de datos orientada a documentos e integración con entornos JavaScript."
+  },
+  {
+    "title": "Docker: De Noob a Pro",
+    "institution": "Mastermind",
+    "period": "2024",
+    "description": "Contenedorización de aplicaciones, gestión de imágenes, volúmenes, redes y optimización de entornos de desarrollo y producción."
+  },
+  {
+    "title": "Todo sobre la Web con PHP",
+    "institution": "Mastermind",
+    "period": "2024",
+    "description": "Desarrollo de aplicaciones web dinámicas en el servidor, manejo de sesiones y conexión a bases de datos relacionales."
+  },
+  {
+    "title": "Git: De Noob a Pro",
+    "institution": "Mastermind",
+    "period": "2024",
+    "description": "Dominio del control de versiones, flujos de trabajo profesionales (GitFlow), resolución de conflictos y colaboración."
+  },
+  {
+    "title": "Fundamentos de Programación con Node.js",
+    "institution": "Mastermind",
+    "period": "2024",
+    "description": "Introducción al entorno de ejecución en el servidor, asincronía, módulos y lógica backend con JavaScript."
+  },
+  {
+    "title": "Crea Páginas Web con HTML y CSS",
+    "institution": "Mastermind",
+    "period": "2021 - 2022",
+    "description": "Estructuración y diseño de interfaces web responsivas utilizando estándares modernos de HTML5 y CSS3."
+  }
+]
