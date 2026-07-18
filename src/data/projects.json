@@ -6,5 +6,13 @@
     "description": "API RESTful robusta y escalable diseñada para la gestión eficiente de tareas pendientes. Implementa un sistema completo de autenticación y autorización segura mediante JWT (JSON Web Tokens), control de usuarios y persistencia de datos relacional con optimización de consultas.",
     "github": "https://github.com/Jyepes18/ToDoApi",
     "demo": "https://todoapi.jyepes.com/index.html"
-  }
+  },
+  {
+  "title": "Medical Appointment API",
+  "image": "/projects/Medical.png",
+  "technologies": [".NET 10", "PostgreSQL", "AWS S3", "QuestPDF"],
+  "description": "API RESTful diseñada para la gestión integral de citas médicas, pacientes, médicos y administradores. Permite programar y administrar citas, registrar signos vitales e historias clínicas, generar reportes médicos en PDF con QuestPDF y almacenarlos en AWS S3. Implementa una arquitectura en capas, servicios desacoplados y persistencia de datos con PostgreSQL para ofrecer una solución escalable y mantenible.",
+  "github": "https://github.com/Jyepes18/medical-appointment-api",
+  "demo": "https://medicalappointmentapi.jyepes.com"
+}
 ]
